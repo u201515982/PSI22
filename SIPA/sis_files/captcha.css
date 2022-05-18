@@ -1,0 +1,87 @@
+.CSSCaptcha_Panel {
+    border: 2px solid transparent;
+    border-radius: 2px;
+    font-family: Arial;
+    font-size: 13px;
+    margin: auto;
+    text-align: center;
+    height: 133px;
+    margin-bottom: 10px;
+    width: 277px;
+    margin-left: -25px;
+}
+
+
+
+.CSSCaptcha_PanelTitulo {
+    width: 95%;
+    height: 40px;
+    padding: 7px;
+    text-align: center;
+    color: #9198a7;
+    margin: auto;
+}
+.CSSCaptcha_PanelCuerpo {
+    width: 95%;
+    height: 65px;
+    text-align: center;
+    margin: auto;
+}
+.CSSCaptcha_PanelTitulo {
+    font-family: Arial;
+    font-size: 13px;
+    text-align: center;
+    height: 25px;
+    width: 95%;
+}
+.CSSCaptcha_NombreImagen {
+    color: #9198a7;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+}
+@media (max-width: 797px) {
+    color: #00633E;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.CSSCaptcha_Tabla {
+    margin: auto;
+    width: 98%;
+}
+.CSSCaptcha_Tabla td {
+    text-align: center;
+    width: 25%;
+    height: 60px;
+}
+.CSSCaptcha_Imagen {
+    margin: auto;
+    height: 40px;
+    width: 30px;
+  /*   margin-top: 30px; */
+    margin-left: 0px;
+    border-radius: 2px;
+}
+.CSSCaptcha_ImagenSeleccionada {
+    border-color: #57CCBB;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+   /*  margin-top: 20px; */
+}
+.CSSCaptcha_Imagen:hover {
+    border-color: #57CCBB;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+}
+.center {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}

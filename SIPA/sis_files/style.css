@@ -1,0 +1,17 @@
+
+select { vertical-align: middle; }
+
+
+select{ font:99% sans-serif; }
+
+
+.select,
+.chosen-select,
+.chosen-select-no-single,
+.chosen-select-no-results,
+.chosen-select-deselect,
+.chosen-select-rtl,
+.chosen-select-width {
+  width: 350px;
+}
+
